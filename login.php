@@ -33,7 +33,7 @@
                         <div class="inputs"><input type="password" name="spass" placeholder="Enter password"><br></div>
                         <div class="forg"><label><a href="">Forgot your password ?</a></label></div><br>
                         <div class="logs"><button type="submit">Login</button></div>
-                        <div class="forg"><label><a href="signup.html">Don't have an account? Register Here.</a></label></div>
+                        <div class="forg"><label><a href="signup.php">Don't have an account? Register Here.</a></label></div>
                     </form>
                 </center>
             </div>

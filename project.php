@@ -29,7 +29,16 @@
         </nav>
         <div class="content">
             <center>
-                <h1><?php if ($_SESSION['id']>0){ echo "Welcome, ".$_SESSION['name']; } else { echo "Please login to access the resources."; }; ?></h1>
+                <?php 
+                if ($_SESSION['id']>0){ 
+                    echo "<h1>Welcome, ".$_SESSION['name']."</h1>
+                    <div class='logs'><a href=''><button type='button'>Search project</button></a></div>
+                    <div class='logs'><a href=''><button type='button'>Upload project</button></a></div>"; 
+                }
+                else { 
+                    echo "<h1>Please login to access the resources.</h1>";
+                };
+                ?>
             </center>
         </div>
     </body>

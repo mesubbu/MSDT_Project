@@ -31,7 +31,7 @@
                         <div class="inputs"><input type="password" name="spass" placeholder="Enter password"></div>
                         <div class="inputs"><input type="password" name="spass2" placeholder="Confirm your password"></div>
                         <div class="logs"><button type="submit">SignUp</button></div>
-                        <div class="forg"><label><a href="login.html">Already have an account ?</a></label></div>
+                        <div class="forg"><label><a href="login.php">Already have an account ? Login Here.</a></label></div>
                     </form>
                 </center>
             </div>
