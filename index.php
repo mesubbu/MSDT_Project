@@ -1,7 +1,10 @@
+<?php
+    session_start();
+?>
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
     <body>
         <nav>
@@ -10,13 +13,17 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="">Faculty</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="project.php">Projects</a></li>
                     <li><a href="">Contact us</a></li>
                     <li><a href="">Profile</a></li>
                     <li><a href="">|</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="login.php">
+                        <?php if($_SESSION['id']>0){ echo "Logout";}
+                        else{ echo "Login";};
+                        ?>
+                    </a></li>
                 </ul>
             </div>
         </nav>

@@ -47,6 +47,7 @@ nav{
 body{
     background-color:bisque;
 }
+
 .content{
     display: flex;
     align-items: center;
@@ -58,4 +59,9 @@ body{
     font-weight: bold;
     color: #603916;
     background-color:antiquewhite;
+}
+.content p{
+    font-size: 20px;
+    color:brown;
+    background-color: antiquewhite;
 }
