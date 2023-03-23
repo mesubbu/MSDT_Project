@@ -32,8 +32,8 @@
                 <?php 
                 if ($_SESSION['id']>0){ 
                     echo "<h1>Welcome, ".$_SESSION['name']."</h1>
-                    <div class='logs'><a href=''><button type='button'>Search project</button></a></div>
-                    <div class='logs'><a href=''><button type='button'>Upload project</button></a></div>"; 
+                    <div class='logs'><a href='search.php'><button type='button'>Search project</button></a></div>
+                    <div class='logs'><a href='upload.php'><button type='button'>Upload project</button></a></div>"; 
                 }
                 else { 
                     echo "<h1>Please login to access the resources.</h1>";

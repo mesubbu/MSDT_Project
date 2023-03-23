@@ -50,8 +50,8 @@ nav{
     border-bottom: 1px solid white;
 }
 .mainbox{
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 450px;
     margin: 6% auto;
     background-color: white;
     border-radius: 10px;
@@ -75,6 +75,7 @@ nav{
     border: 3px solid #603916;
     border-radius: 10px;
     width: 300px;
+    margin:5px;
 }
 
 .mainbox form label a{
