@@ -12,7 +12,6 @@
                 <div class="menu">
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="">Faculty</a></li>
                         <li><a href="project.php">Projects</a></li>
                         <li><a href="">Contact us</a></li>
                         <li><a href="">|</a></li>

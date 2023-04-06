@@ -72,7 +72,7 @@ body{
     font-weight: bold;
     color: #603916;
 }
-.mainbox form{
+.formbox{
     padding: 20px;
 }
 .ptit label{
@@ -80,7 +80,7 @@ body{
     color: #603916;
     font-weight: bold;
 }
-.ptit input{
+.ptit h1{
     padding: 5px 10px;
     outline: none;
     border: 2px solid #603916;
@@ -112,13 +112,16 @@ body{
     color: #603916;
     font-weight: bold;
 }
-.std input{
+.std h3{
     padding: 5px 10px;
     outline: none;
     border: 2px solid #603916;
     border-radius: 5px;
     width: 200px;
     margin:5px;
+}
+.details{
+    display: inline-block;
 }
 .std select{
     padding: 5px 10px;

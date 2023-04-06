@@ -1,6 +1,9 @@
 <?php
     session_start();
-    $_SESSION['id']=0;
+    if (isset($_SESSION['id']))
+    {
+        session_destroy();
+    }
 ?>
 <html>
     <head>
@@ -16,9 +19,9 @@
                 <div class="menu">
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="">Faculty</a></li>
                         <li><a href="project.php">Projects</a></li>
                         <li><a href="">Contact us</a></li>
+                        <li><a href="">Profile</a></li>
                         <li><a href="">|</a></li>
                         <li><a href="signup.php">SignUp</a></li>
                     </ul>

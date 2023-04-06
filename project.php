@@ -14,13 +14,12 @@
             <div class="menu">
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="">Faculty</a></li>
                     <li><a href="project.php">Projects</a></li>
                     <li><a href="">Contact us</a></li>
                     <li><a href="">Profile</a></li>
                     <li><a href="">|</a></li>
                     <li><a href="login.php">
-                        <?php if($_SESSION['id']>0){ echo "Logout";}
+                        <?php if(isset($_SESSION['id'])){ echo "Logout";}
                         else{ echo "Login";};
                         ?>
                     </a></li>
@@ -30,7 +29,7 @@
         <div class="content">
             <center>
                 <?php 
-                if ($_SESSION['id']>0){ 
+                if (isset($_SESSION['id'])){ 
                     echo "<h1>Welcome, ".$_SESSION['name']."</h1>
                     <div class='logs'><a href='search.php'><button type='button'>Search project</button></a></div>
                     <div class='logs'><a href='upload.php'><button type='button'>Upload project</button></a></div>"; 
