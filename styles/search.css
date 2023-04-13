@@ -60,9 +60,6 @@ body{
     background-color: antiquewhite;
     margin: 10% auto;
     position: static;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
     border:5px solid #603916;
     border-radius:10px ;
     padding: 50px;
@@ -71,25 +68,49 @@ body{
     font-size: 35px;
     color:#603916;
     font-weight: bold;
+    margin-bottom: 20px;
 }
-.ptit{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+.formbox{
+    width: 800px;
+    height: 50px;
 }
-.ptit label{
+.formbox form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #603916;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 33px;
+}
+.logs{
+    padding:0px 10px;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: antiquewhite;
+} 
+.logs button{
+    padding:5px 10px;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: antiquewhite;
     color:#603916;
-    font-size: 20px;
-    font-weight: Bold;
-    margin:0px 20px 0px 0px;
 }
-.ptit h3{
-    font-size: 18px;
-    margin-top: 2px;
-    font-weight: 500;
+.logs button:hover{
+    background-color: #603916;
+    color: antiquewhite;
+}
+.logs button a{
+    text-decoration: none;
+    color:#603916;
+}
+.logs button a:hover{
+    background-color: #603916;
+    color: antiquewhite;
 }
 .details{
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 .details table{
     height: 50px;
@@ -110,28 +131,13 @@ body{
     font-weight: Bold;
     margin:0px 20px 0px 0px;
 }
-
-.prdetails label{
-    color:#603916;
-    font-size: 20px;
-    font-weight: Bold;
-    margin:0px 20px 0px 0px;
+.details table tr td form{
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
 }
-.prdetails p{
-    font-size: 17px;
-}
-
-.mainbox center button{
-    margin:50px 0px 0px 0px;
-    padding: 5px 10px;
-    border: 2px solid #603916;
-    border-radius: 5px;
-}
-.mainbox center button:hover{
-    border: 3px solid #603916;
-}
-.mainbox center button a{
+.details table tr td form button{
+    background-color: antiquewhite;
     color: #603916;
-    font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }

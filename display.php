@@ -13,7 +13,7 @@
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles/upload.css">
+        <link rel="stylesheet" href="styles/display.css">
     </head>
     <body>
         <nav>
@@ -45,10 +45,11 @@
                     <h1>Project Details</h1>
                     <div class="formbox">
                         <div class="ptit">
-                            <label>Project Title</label><br>
+                            <label>Project Title:</label><br>
                             <h3><?php echo $pres['ptitle']; ?></h3>
                         </div>
                         <div class="details">
+                            <label>Project Mentor Details</label>
                             <table>
                                 <tr>
                                     <th>Mentor Name</th>
@@ -57,14 +58,15 @@
                                     <th>Mentor Branch</th>
                                 </tr>
                                 <tr>
-                                    <td><?php echo $pres['pmname']; ?></td>
-                                    <td><?php echo $pres['pmid']; ?></td>
-                                    <td><?php echo $pres['pmmobile']; ?></td>
-                                    <td><?php echo $pres['pmbranch']; ?></td>
+                                    <td><center><?php echo $pres['pmname']; ?></center></td>
+                                    <td><center><?php echo $pres['pmid']; ?></center></td>
+                                    <td><center><?php echo $pres['pmmobile']; ?></center></td>
+                                    <td><center><?php echo $pres['pmbranch']; ?></center></td>
                                 </tr>
                             </table>
                         </div>
                         <div class="details">
+                            <label>Project Team Leader Details</label>
                             <table>
                                 <tr>
                                     <th>Student Name</th>
@@ -73,10 +75,10 @@
                                     <th>Student Branch</th>
                                 </tr>
                                 <tr>
-                                    <td><?php echo $pres['stdname']; ?></td>
-                                    <td><?php echo $pres['stdid']; ?></td>
-                                    <td><?php echo $pres['stdmobile']; ?></td>
-                                    <td><?php echo $pres['stdbranch']; ?></td>
+                                    <td><center><?php echo $pres['stdname']; ?></center></td>
+                                    <td><center><?php echo $pres['stdid']; ?></center></td>
+                                    <td><center><?php echo $pres['stdmobile']; ?></center></td>
+                                    <td><center><?php echo $pres['stdbranch']; ?></center></td>
                                 </tr>
                             </table>
                         </div>
@@ -84,6 +86,7 @@
                             <label>Project Description</label>
                             <p><?php echo $pres['pdesc']; ?></p>
                         </div>
+                        <center><button><a href="search.php">Back</a></button></center>
                     </div>
             </div>
         </div>
