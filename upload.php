@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles/uploads.css">
+        <link rel="stylesheet" href="styles/upload.css">
     </head>
     <body>
         <nav>
@@ -29,7 +29,7 @@
         <div class="content">
             <div class="mainbox">
                     <h1>Upload your Project</h1>
-                    <form action="uploadproject.php" method="POST">
+                    <form action="uploadproject.php" method="POST" enctype="multipart/form-data">
                         <div class="pteam">
                             <div class="ptit">
                                 <label>Project Title</label><br>
@@ -64,6 +64,9 @@
                             <div class="finfo">
                                 <label>Project Description</labels><br>
                                 <textarea name="pdesc" rows="5" cols="50" placeholder="Enter your project description in 150 words"></textarea><br>
+                                
+                                <label>Project files</label><br>
+                                <div class="fileup"><input type="file" name="prfile"></div>
                                 <div class="ackw">
                                 <input type="checkbox" id="ack" name="stdack" value="agreed">
                                 <label for="ack">I hereby declare that the above details are true.</label>

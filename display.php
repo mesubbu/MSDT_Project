@@ -1,9 +1,9 @@
 <?php 
     session_start();
     include 'dbconn.php';
-    if (isset($_SESSION['pid']))
+    if (isset($_SESSION['prid']))
     {
-        echo "Hi";
+
     }
     else
     {
@@ -13,7 +13,7 @@
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles/display.css">
+        <link rel="stylesheet" href="styles/displayy.css">
     </head>
     <body>
         <nav>
@@ -86,6 +86,7 @@
                             <label>Project Description</label>
                             <p><?php echo $pres['pdesc']; ?></p>
                         </div>
+                        <div class="prfile"><a href="<?php echo 'uploadedfiles/'.$pres['stdid'].'.zip'; ?>">Download Project Files</a></div>
                         <center><button><a href="search.php">Back</a></button></center>
                     </div>
             </div>

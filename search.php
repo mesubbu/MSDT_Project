@@ -73,7 +73,7 @@
                                                     <td><center><?php echo $row['pid']; ?></center></td>
                                                     <td><center><?php echo $row['ptitle']; ?></center></td>
                                                     <td><center><?php echo $row['stdbranch']; ?></center></td>
-                                                    <td><center><div class="clickbtn"><form action="prredirect.php" method="post"><button value=<?php $row['pid'] ?> name="prid">Click here</button></form></div></center></td>
+                                                    <td><center><div class="clickbtn"><form action="prredirect.php" method="post"><button value=<?php echo $row['pid']; ?> name="prid">Click here</button></form></div></center></td>
                                                 </tr>
                                                 <?php
                                                 

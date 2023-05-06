@@ -56,9 +56,9 @@ body{
 }
 .mainbox{
     width: 1500px;
-    height: 500px;
+    height: 600px;
     background-color: antiquewhite;
-    margin: 10% auto;
+    margin: 5% auto;
     position:static;
     display: flex;
     flex-wrap: wrap;
@@ -127,6 +127,11 @@ body{
     border-radius: 5px;
     margin:5px;
 }
+
+.fileup input{
+    margin: 5px;
+}
+
 .logs{
     padding:0px 10px;
     display: inline-block;
