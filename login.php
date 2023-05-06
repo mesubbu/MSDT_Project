@@ -20,8 +20,8 @@
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="project.php">Projects</a></li>
-                        <li><a href="">Contact us</a></li>
-                        <li><a href="">Profile</a></li>
+                        <li><a href="contactus.php">Contact us</a></li>
+                        <li><a href="profile.php">Profile</a></li>
                         <li><a href="">|</a></li>
                         <li><a href="signup.php">SignUp</a></li>
                     </ul>

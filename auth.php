@@ -15,4 +15,8 @@ if($pass===$res['spass'])
     $_SESSION["name"]=$res['sname'];
     header('Location: '.$url);
 }
+else
+{
+    echo "Password Incorrect";
+}
 ?>

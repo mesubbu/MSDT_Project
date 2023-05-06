@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/contact.css">
     </head>
     <body>
         <nav>
@@ -27,10 +27,26 @@
             </div>
         </nav>
         <div class="content">
-            <center>
-                <h1>SRKR Project Resources</h1>
-                <p>Welcome to the SRKR Project Resources website where you can get all resources necessary for your future projects at SRKR. Happy Learning.</p>
-            </center>
+            <div class="leftpart">
+                <img src="images/contact.png">
+            </div>
+            <div class="rightpart">
+                <h1>Contact Us</h1>
+                <div class="details">
+                    <div class="detbtn">
+                        <h2>Location</h2>
+                        <p>S.R.K.R. Engineering College (AUTONOMOUS), SRKR MARG, China amiram, Bhimavaram - 534204, AP, INDIA</p>
+                    </div>
+                    <div class="detbtn">
+                        <h2>Phone</h2>
+                        <p>08816-223332<br>9848823332, 9848381818</p>
+                    </div>
+                    <div class="detbtn">
+                        <h2>Email</h2>
+                        <p>principal@srkrec.ac.in</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

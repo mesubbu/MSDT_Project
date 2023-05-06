@@ -59,28 +59,73 @@ body{
     height: 500px;
     background-color: antiquewhite;
     margin: 10% auto;
-    position: static;
+    position:static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
     border:5px solid #603916;
     border-radius:10px ;
     padding: 50px;
 }
 .mainbox h1{
-    font-size: 35px;
-    color:#603916;
+    font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    color: #603916;
 }
-.formbox{
-    width: 800px;
-    height: 50px;
+.mainbox form{
+    padding: 20px;
 }
-.formbox form input{
-    padding: 10px 20px;
-    border-radius: 5px;
+.ptit label{
+    font-size: 20px;
+    color: #603916;
+    font-weight: bold;
+}
+.ptit input{
+    padding: 5px 10px;
+    outline: none;
     border: 2px solid #603916;
-    background-color: antiquewhite;
+    border-radius: 5px;
     width: 300px;
-    height: 33px;
+    margin:5px;
+}
+.finfo{
+    font-size: 20px;
+    color: #603916;
+    font-weight: bold;
+}
+.finfo textarea{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    width: 700px;
+    margin:5px;
+    resize: none;
+}
+.ackw label{
+    font-size: 15px;
+    color: #603916;
+    font-weight: bold;
+}
+.std label{
+    font-size: 20px;
+    color: #603916;
+    font-weight: bold;
+}
+.std input{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    width: 200px;
+    margin:5px;
+}
+.std select{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    margin:5px;
 }
 .logs{
     padding:0px 10px;
@@ -107,37 +152,4 @@ body{
 .logs button a:hover{
     background-color: #603916;
     color: antiquewhite;
-}
-.details{
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-.details table{
-    height: 50px;
-    width: 800px;
-    border: 2px solid #603916;
-    border-radius: 10px;
-    margin: 10px 0px;
-    border-collapse: collapse;
-}
-
-.details table tr,td{
-    border: 2px solid #603916;
-}
-
-.details label{
-    color:#603916;
-    font-size: 20px;
-    font-weight: Bold;
-    margin:0px 20px 0px 0px;
-}
-.details table tr td form{
-    outline: none;
-    border: none;
-    background-color: antiquewhite;
-}
-.details table tr td form button{
-    background-color: antiquewhite;
-    color: #603916;
-    text-decoration: underline;
 }

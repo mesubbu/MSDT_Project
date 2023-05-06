@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    background-color: #603916;
+}
+.logo img{
+    margin: 0 0 0 20px;
+    width: 150px;
+    height: 40px;
+    background-color: antiquewhite;
+    padding: 10px 0px;
+    border-radius: 25px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    margin: 0;
+    padding: 20px;
+    background-color: #603916;
+    top: 0;
+}
+.menu ul{
+    background-color: #603916;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 3px;
+    background-color: #603916;
+    margin: 0 10px;
+}
+.menu ul li a{
+    font-weight: 500;
+    color:white;
+    background-color: #603916;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid white;
+}
+body{
+    background-color:antiquewhite;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    padding: 0px 230px;
+    background-color:antiquewhite;
+}
+.mainbox{
+    width: 1500px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: 10% auto;
+    position:static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    border:5px solid #603916;
+    border-radius:10px ;
+    padding: 50px;
+}
+.mainbox h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #603916;
+}
+.formbox{
+    padding: 20px;
+}
+.ptit label{
+    font-size: 20px;
+    color: #603916;
+    font-weight: bold;
+}
+.ptit h1{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    width: 300px;
+    margin:5px;
+}
+.finfo{
+    font-size: 20px;
+    color: #603916;
+    font-weight: bold;
+}
+.finfo textarea{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    width: 700px;
+    margin:5px;
+    resize: none;
+}
+.ackw label{
+    font-size: 15px;
+    color: #603916;
+    font-weight: bold;
+}
+.std label{
+    font-size: 20px;
+    color: #603916;
+    font-weight: bold;
+}
+.std h3{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    width: 200px;
+    margin:5px;
+}
+
+.std input{
+    padding: 5px 10px;
+    border:2px solid #603916;
+}
+.details{
+    display: inline-block;
+}
+.std select{
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    margin:5px;
+}
+.logs{
+    padding:0px 10px;
+    display: inline-block;
+    justify-content: space-between;
+    background-color: antiquewhite;
+} 
+.logs button{
+    padding:5px 10px;
+    border: 2px solid #603916;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    color:#603916;
+}
+.logs button:hover{
+    background-color: #603916;
+    color: antiquewhite;
+}
+.logs button a{
+    text-decoration: none;
+    color:#603916;
+}
+.logs button a:hover{
+    background-color: #603916;
+    color: antiquewhite;
+}

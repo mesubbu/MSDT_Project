@@ -13,7 +13,7 @@
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles/search.css">
+        <link rel="stylesheet" href="styles/search2.css">
     </head>
     <body>
         <nav>
@@ -24,8 +24,8 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="project.php">Projects</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Profile</a></li>
+                    <li><a href="contactus.php">Contact us</a></li>
+                    <li><a href="profile.php">Profile</a></li>
                     <li><a href="">|</a></li>
                     <li><a href="login.php">
                         <?php if(isset($_SESSION['id'])){ echo "Logout";}
@@ -73,7 +73,7 @@
                                                     <td><center><?php echo $row['pid']; ?></center></td>
                                                     <td><center><?php echo $row['ptitle']; ?></center></td>
                                                     <td><center><?php echo $row['stdbranch']; ?></center></td>
-                                                    <td><center><form action="prredirect.php" method="post"><button value=<?php $row['pid'] ?> name="prid">Click here</button></form></center></td>
+                                                    <td><center><div class="clickbtn"><form action="prredirect.php" method="post"><button value=<?php $row['pid'] ?> name="prid">Click here</button></form></div></center></td>
                                                 </tr>
                                                 <?php
                                                 

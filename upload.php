@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>SRKR Resources</title>
-        <link rel="stylesheet" href="styles/upload.css">
+        <link rel="stylesheet" href="styles/uploads.css">
     </head>
     <body>
         <nav>
@@ -15,8 +15,8 @@
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="project.php">Projects</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Profile</a></li>
+                    <li><a href="contactus.php">Contact us</a></li>
+                    <li><a href="profile.php">Profile</a></li>
                     <li><a href="">|</a></li>
                     <li><a href="login.php">
                         <?php if(isset($_SESSION['id'])){ echo "Logout";}
